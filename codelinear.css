@@ -11,7 +11,7 @@ body{
     background-color: black;
 }
 #bgi{
-    background-image: url("./imgs/codeball\ 1.png");
+    background-image: url("./codeball\ 1.png");
     position: absolute;
     width: 1776.34px;
     height: 999.19px;
@@ -207,7 +207,7 @@ a{
     position: absolute;
     left: 1040px;
     top: 260px;
-    background-image: url("./imgs/image\ 5.png");
+    background-image: url("./image\ 5.png");
     background-size: 2140px;
     width: 700px;
     height: 1100px;
@@ -237,7 +237,7 @@ a{
     position: absolute;
     top: 825px;
     left: 180px;
-    background-image: url("./imgs/image\ 3.png");
+    background-image: url("./image\ 3.png");
     background-size: 1800px;
     width: 720px;
     height: 1080px;
@@ -264,7 +264,7 @@ a{
     color: rgb(175, 175, 175);
 }
 #img3{
-    background-image: url("./imgs/image\ 4.png");
+    background-image: url("./image\ 4.png");
     position: absolute;
     left: 1040px;
     top: 1650px;
@@ -308,7 +308,7 @@ a{
     color: rgb(161, 161, 161);
 }
 #img4{
-    background-image: url("./imgs/1280x670_Beoplay_EX\ 1.png");
+    background-image: url("./1280x670_Beoplay_EX\ 1.png");
     position: absolute;
     left: 180px;
     top: 2180px;

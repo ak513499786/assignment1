@@ -659,17 +659,19 @@ sup{
     bottom: 35px;
     left: 100px;
 }
-@media screen and (min-width:1920px) {
+@media screen and (min-width:1680px) {
     #rectangle{
             position: absolute;
             width: 2061.69px;
-            height: 332.32px;
+            height: 360px;
             left: -170px;
-            top: 300px;
-            background: #000000;
+            top: 240px;
             transform: rotate(-25deg);
     }
     #navigation{
         width:1750px;
+    }
+    #img2{
+        top: 640px;
     }
 }

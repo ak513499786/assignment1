@@ -24,8 +24,8 @@ body{
 #navigation{
     position: fixed;
     z-index: 5;
-    width: 1160px;
-    height: 90px;
+    width: 85%;
+    height: auto;
     left: 100px;
 }
 #navigation ul{
@@ -37,8 +37,8 @@ body{
     top: 0px;
 }
 #logo{
-    width: 95px;
-    height: 40px;
+    width: 5.5rem;
+    height: 2.4rem;
     display: inline;
     position: relative;
     z-index: 3;
@@ -101,9 +101,9 @@ body{
     padding: 0px;
     gap: 24px;
     position: absolute;
-    width: 50%;
-    height: 361.61px;
-    left: 155px;
+    width: 45rem;
+    height: auto;
+    left: 145px;
     top: 200px;
 }
 #header{
@@ -241,9 +241,9 @@ body{
     position: absolute;
     right:100px;
     top: 200px;
-    background-image: url("./image 5.png");
+    background-image: url("./imgs/image\ 5.png");
     background-size: 1680px;
-    width: 500px;
+    width: 40%;
     height: 870px;
     background-repeat: no-repeat;
     background-position: -630px -100px;
@@ -254,7 +254,7 @@ body{
     background-position: 0px 500px;
 }
 #imgs1{
-    width: 500px;
+    width: 40%;
     display: flex;
     color: white;
     position: absolute;
@@ -273,20 +273,20 @@ body{
     position: absolute;
     top: 655px;
     left: 148px;
-    background-image: url("./image 3.png");
+    background-image: url("./imgs/image\ 3.png");
     background-size: 1640px;
-    width: 500px;
+    width: 40%;
     height: 840px;
     background-repeat: no-repeat;
-    background-position:-1020px -150px;
+    background-position:-960px -150px;
     transition: 0.5s;
 }
 #img2:hover{
-    background-size: 500px;
-    background-position: 0px 520px;
+    background-size: 600px;
+    background-position: 0px 500px;
 }
 #imgs2{
-    width: 500px;
+    width: 40%;
     color: white;
     display: flex;
     position: relative;
@@ -302,19 +302,19 @@ body{
     color: rgb(161, 161, 161);
 }
 #img3{
-    background-image: url("./image 4.png");
+    background-image: url("./imgs/image\ 4.png");
     position: absolute;
     right: 100px;
     top: 1300px;
     background-size: 950px;
-    width: 500px;
+    width: 40%;
     height: 750px;
     background-repeat: no-repeat;
-    background-position:-210px -30px;
+    background-position:-150px -30px;
     transition: 0.5s;
 }
 #img3:hover{
-    background-size: 550px;
+    background-size: 600px;
     background-position: -70px 0px;
 }
 #imgs3{
@@ -322,7 +322,7 @@ body{
     color: white;
     position: absolute;
     top:1230px;
-    width: 500px;
+    width: 40%;
     right: 100px;
     font-size: 15px;
 }
@@ -334,7 +334,7 @@ body{
     color: rgb(161, 161, 161);
 }
 #imgs4{
-    width: 500px;
+    width: 40%;
     color: white;
     display: flex;
     position: absolute;
@@ -350,19 +350,19 @@ body{
     color: rgb(161, 161, 161);
 }
 #img4{
-    background-image: url("./1280x670_Beoplay_EX 1.png");
+    background-image: url("./imgs/1280x670_Beoplay_EX\ 1.png");
     position: absolute;
     left: 148px;
     top: 1750px;
     background-size: 1320px;
-    width: 500px;
+    width: 40%;
     height: 300px;
     background-repeat: no-repeat;
     background-position:-355px 0px;
     transition: 0.5s;
 }
 #img4:hover{
-    background-size: 515px;
+    background-size: 555px;
     background-position: 0px 0px;
 }
 #service{

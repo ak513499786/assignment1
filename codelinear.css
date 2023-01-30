@@ -241,7 +241,7 @@ body{
     position: absolute;
     right:100px;
     top: 200px;
-    background-image: url("./image\ 5.png");
+    background-image: url("./image 5.png");
     background-size: 1680px;
     width: 500px;
     height: 870px;
@@ -273,7 +273,7 @@ body{
     position: absolute;
     top: 655px;
     left: 148px;
-    background-image: url("./image\ 3.png");
+    background-image: url("./image 3.png");
     background-size: 1640px;
     width: 500px;
     height: 840px;
@@ -302,7 +302,7 @@ body{
     color: rgb(161, 161, 161);
 }
 #img3{
-    background-image: url("./image\ 4.png");
+    background-image: url("./image 4.png");
     position: absolute;
     right: 100px;
     top: 1300px;
@@ -350,7 +350,7 @@ body{
     color: rgb(161, 161, 161);
 }
 #img4{
-    background-image: url("./1280x670_Beoplay_EX\ 1.png");
+    background-image: url("./1280x670_Beoplay_EX 1.png");
     position: absolute;
     left: 148px;
     top: 1750px;

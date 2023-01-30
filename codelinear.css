@@ -678,20 +678,20 @@ sup{
         top: 1460px;
     }
 }
-@media screen and (min-width:1820px) {
+@media screen and (min-width:1820px){
     #rectangle{
             position: absolute;
             width: 2061.69px;
             height: 350px;
             left: -170px;
-            top: 300px;
+            top: 290px;
             transform: rotate(-25deg);
     }
     #navigation{
         width:1750px;
     }
 }
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1500px) and (max-width:1600px){
     #rectangle{
             position: absolute;
             width: 2061.69px;
@@ -708,5 +708,23 @@ sup{
     }
     #imgs2{
         top: 1460px;
+    }
+}
+@media screen and (max-width:1300px) {
+    #imgs,#imgs1,#img2,#imgs2,#img3,#imgs3,#img4,#imgs4{
+        width: 35%;
+        font-size: 12px;
+    }
+    #imgs{
+        top: 300px;
+    }
+    #imgs1{
+        top:1170px ;
+    }
+    #imgs4p,#imgs3p,#imgs2p,#imgs1p{
+        position: relative;
+        top: 12px;
+        font-size: 8px;
+        color: rgb(161, 161, 161);
     }
 }

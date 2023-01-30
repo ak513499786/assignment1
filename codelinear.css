@@ -271,7 +271,7 @@ body{
 }
 #img2{
     position: absolute;
-    top: 640px;
+    top: 655px;
     left: 148px;
     background-image: url("./imgs/image\ 3.png");
     background-size: 1640px;
@@ -658,4 +658,18 @@ sup{
     position: relative;
     bottom: 35px;
     left: 100px;
+}
+@media screen and (min-width:1920px) {
+    #rectangle{
+            position: absolute;
+            width: 2061.69px;
+            height: 332.32px;
+            left: -170px;
+            top: 300px;
+            background: #000000;
+            transform: rotate(-25deg);
+    }
+    #navigation{
+        width:1750px;
+    }
 }

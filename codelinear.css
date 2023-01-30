@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     color: white;
     background-color: #000000;
@@ -11,81 +11,88 @@ body{
     background-color: black;
 }
 #bgi{
-    background-image: url("./codeball\ 1.png");
     position: absolute;
     width:100%;
     height: 1000px;
-    left: 420px;
+    left: 350px;
     top: 0px;
-    background-size: 1450px;
-    background-repeat: no-repeat;
+}
+#bgi video{
+    height: auto;
+    width: 100%;
 }
 #navigation{
     position: fixed;
     z-index: 5;
-    width: 85%;
-    height: 88.44px;
-    left: -5%;
-    top: -5px;
-    padding: 0px 184px 24px;
+    width: 1160px;
+    height: 90px;
+    left: 100px;
 }
-ul{
+#navigation ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     left: 0px;
     top: 0px;
 }
 #logo{
-    width: 98px;
-    height: 50px;
+    width: 95px;
+    height: 40px;
     display: inline;
     position: relative;
     z-index: 3;
-    bottom:12px;
+    top:25px;
+    transition: 0.5s;
+    padding-bottom: 10px;
+    
 }
-a{
+.hover::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color:#848484;
+    border-radius: 360px;
+    position:absolute;
+    top: 12px;
+    left: 9px;
+    transition: 0.5s;
+}
+.hover:hover:after{
+    width: 25px;
+    height: 25px;
+}
+.hover{
     text-decoration: none;
+    position: relative;
+    bottom: 40px;
+}
+.hover::before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color:gold;
+    position:absolute;
+    top: 24px;
+    left: 24px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.hover:hover:before{
+    width: 5px;
+    height: 1.5px;
+}
+#logo:hover{
+    width: 110px;
 }
 #menu{
-    width: 55px;
-    height: 15px;
+    width: 45px;
+    height: 12px;
     position: relative;
-    left: -10px;
-    top: -5px;
+    bottom: 10px;
+    right: 10px;
     border-top:2px solid rgba(255, 217, 0, 0.901) ;
     border-bottom:2px solid gold ;
-}
-#hyphen{
-    width: 6px;
-    height: 2px;
-    background-color: gold;
-    position: relative;
-    bottom:25px;
-    left: 25px;
-    z-index: 2;
-    display: none;
-}
-#circle{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(151, 151, 151);
-    border-radius: 360px;
-    position: fixed;
-    left: 155px; 
-    top: 27px;
-    z-index: 1;
-    display: none;
-}
-#waae{
-    color: gold;
-    font-size: 10px;
-    position: relative;
-    bottom: 32px;
-    left: 40px;
-    display: none;
 }
 #content{
     display: flex;
@@ -94,14 +101,14 @@ a{
     padding: 0px;
     gap: 24px;
     position: absolute;
-    width: 49%;
+    width: 50%;
     height: 361.61px;
     left: 155px;
-    top: 250px;
+    top: 200px;
 }
 #header{
-    font-weight:600;
-    font-size: 57px;
+    font-weight:100;
+    font-size: 52px;
     line-height: 65px;
     letter-spacing: -0.03em;
     text-transform: capitalize;
@@ -110,7 +117,7 @@ a{
 #dmycnt{
     width: 70%;
     height: 56px;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 13px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.558);
@@ -121,9 +128,22 @@ a{
     height: 61.61px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 300;
     font-size: 27px;
     line-height: 50px;
+}
+#aboutbtn::after{
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: aliceblue;
+    position:absolute;
+    top: 330px;
+    left: 0;
+    transition: 0.5s;
+}
+#aboutbtn:hover:after{
+    width: 110px;
 }
 #line{
     position: relative;
@@ -136,6 +156,7 @@ a{
     width: 100%;
     height: 68px;
     font-size: 15px;
+    font-weight: 100;
 }
 #about{
     position: relative;
@@ -170,9 +191,9 @@ a{
     margin: 0px;
     color: white;
     line-height: 70px;
-    width: 1000px;
+    width: 900px;
     height: 201px;
-    font-weight:600;
+    font-weight:100;
     font-size: 75px;
     line-height: 75px;
     letter-spacing: -0.03em;
@@ -194,7 +215,7 @@ a{
     text-decoration: none;
     position: relative;
     top: 0px;
-    font-weight: 700;
+    font-weight: 300;
     width: 151px;
     height: 58.77px;
     font-size: 27px;
@@ -203,20 +224,33 @@ a{
     color: white;
     margin-left: 10px;
 }
+#allworks::after{
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: aliceblue;
+    position:absolute;
+    top: 60px;
+    left: 0;
+    transition: 0.5s;
+}
+#allworks:hover:after{
+    width: 110px;
+}
 #imgs{
     position: absolute;
     right:100px;
     top: 200px;
-    background-image: url("./image\ 5.png");
+    background-image: url("./imgs/image\ 5.png");
     background-size: 1680px;
     width: 500px;
     height: 870px;
     background-repeat: no-repeat;
     background-position: -630px -100px;
+    transition: 0.5s;
 }
 #imgs:hover{
     background-size: 600px;
-    transition: 0.5s;
     background-position: 0px 500px;
 }
 #imgs1{
@@ -239,16 +273,16 @@ a{
     position: absolute;
     top: 655px;
     left: 148px;
-    background-image: url("./image\ 3.png");
+    background-image: url("./imgs/image\ 3.png");
     background-size: 1640px;
     width: 500px;
     height: 840px;
     background-repeat: no-repeat;
     background-position:-1020px -150px;
+    transition: 0.5s;
 }
 #img2:hover{
     background-size: 500px;
-    transition: 0.5s;
     background-position: 0px 520px;
 }
 #imgs2{
@@ -268,7 +302,7 @@ a{
     color: rgb(161, 161, 161);
 }
 #img3{
-    background-image: url("./image\ 4.png");
+    background-image: url("./imgs/image\ 4.png");
     position: absolute;
     right: 100px;
     top: 1300px;
@@ -277,10 +311,10 @@ a{
     height: 750px;
     background-repeat: no-repeat;
     background-position:-210px -30px;
+    transition: 0.5s;
 }
 #img3:hover{
     background-size: 550px;
-    transition: 0.5s;
     background-position: -70px 0px;
 }
 #imgs3{
@@ -316,7 +350,7 @@ a{
     color: rgb(161, 161, 161);
 }
 #img4{
-    background-image: url("./1280x670_Beoplay_EX\ 1.png");
+    background-image: url("./imgs/1280x670_Beoplay_EX\ 1.png");
     position: absolute;
     left: 148px;
     top: 1750px;
@@ -325,10 +359,10 @@ a{
     height: 300px;
     background-repeat: no-repeat;
     background-position:-355px 0px;
+    transition: 0.5s;
 }
 #img4:hover{
     background-size: 515px;
-    transition: 0.5s;
     background-position: 0px 0px;
 }
 #service{
@@ -345,7 +379,7 @@ a{
     margin: 0;
     width: 770px;
     height: 309px;
-    font-weight: 600;
+    font-weight: 100;
     font-size: 75px;
     line-height: 102.8%;
     text-align: center;
@@ -358,7 +392,7 @@ a{
     top: 50px;
     width: 490px;
     height: 84px;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 15px;
     line-height: 139.52%;
     text-align: center;
@@ -385,15 +419,25 @@ hr{
 sup{
     font-size: 15px;
 }
-span{
-    border-bottom: 2px solid rgb(123, 123, 123);
-}
 #allsvc{
     text-align: center;
     font-size: 28px;
     position: relative;
     top: 160px;
     font-weight: bolder;
+}
+#allsvc::after{
+    content: '';
+    width: 110px;
+    height: 2px;
+    background-color: rgb(18, 18, 18);
+    position:absolute;
+    top: 30px;
+    left: 570px;
+    transition: 0.7s;
+}
+#allsvc:hover:after{
+    width: 240px;
 }
 #chs{
     width: 230%;
@@ -404,6 +448,7 @@ span{
     font-size: 25px;
     position: relative;
     right: 400px;
+    font-weight: 100;
 }
 #chs div h1{
     position: relative;
@@ -420,6 +465,7 @@ span{
     font-size: 70px;
     margin: 0;
     text-align: center;
+    font-weight: 100;
 }
 #nums{
     color: rgb(182, 182, 182);
@@ -462,6 +508,7 @@ span{
     position: relative;
     left: 300px;
     bottom: 150px;
+    font-weight: 100;
 }
 #pm{
     line-height: 0px;
@@ -471,6 +518,7 @@ span{
     position: relative;
     top: -5px;
     right: 15px;
+    font-weight: 100;
 }
 #container h2{
     margin: 0px;
@@ -478,6 +526,7 @@ span{
     position: relative;
     top: -10px;
     right: 15px;
+    font-weight: 100;
 }
 #clients{
     position: relative;
@@ -499,9 +548,10 @@ span{
     font-size: 70px;
     width: 60%;
     line-height: 75px;
+    font-weight: 100;
 }
 #blog-icons{
-    width: 65%;
+    width: 70%;
     position: relative;
     left: 18%;
     top: 110px;
@@ -524,15 +574,16 @@ span{
 #blog-icons h2{
     color: rgb(186, 186, 186);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 100;
 }
 #blog-icons h5{
     font-size: 15px;
     color: rgba(255, 255, 255, 0.798);
+    font-weight: 100;
 }
 #m{
     position: relative;
-    bottom: 18px;
+    bottom: 7px;
 }
 #footer{
     width: 100%;
@@ -544,6 +595,7 @@ span{
     font-size: 25px;
     text-align: center;
     position: relative;
+    font-weight: 100;
 }
 #ftrh1{
     width: 100%;
@@ -551,16 +603,15 @@ span{
     font-size: 250px;
     color: black;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     left: 40px;
     bottom: 130px;
     margin-bottom: 0px;
-    font-weight: 100;
+    font-weight: bolder;
+    transition: 0.5s;
 }
 #ftrh1:hover{
     text-shadow: 0px 0px 20px rgb(231, 224, 211);
-    transition: 0.5s;
 }
 #lower-footer{
     color: white;
@@ -575,17 +626,18 @@ span{
     position: relative;
     left: -80px;
     bottom: 25px;
-    font-weight: bolder;
-    font-weight: bold;
+    font-weight: 100;
 }
 #lower-footer h5{
     line-height: 18px;
     font-size:15px;
     margin: 0;
+    font-weight: 100;
 }
 #lower-footer h3{
     margin-bottom: 12px;
     font-size: 20px;
+    font-weight: 100;
 }
 #business-inquiries{
     position: relative;

@@ -426,19 +426,6 @@ sup{
     top: 160px;
     font-weight: bolder;
 }
-#allsvc::after{
-    content: '';
-    width: 110px;
-    height: 2px;
-    background-color: rgb(18, 18, 18);
-    position:absolute;
-    top: 30px;
-    left: 570px;
-    transition: 0.7s;
-}
-#allsvc:hover:after{
-    width: 240px;
-}
 #chs{
     width: 230%;
     height: 300px;

@@ -24,7 +24,7 @@ body{
 #navigation{
     position: fixed;
     z-index: 5;
-    width: 80%;
+    width: 1600px;
     height: auto;
     left: 100px;
 }
